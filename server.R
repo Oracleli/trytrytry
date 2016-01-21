@@ -3,8 +3,8 @@ library('stringi')
 library('dplyr')
 library('igraph')
 library('sna')
-load(file='mole_twomode.rda')
-recipe_list=read.csv('recipe_list.csv')
+load(file='twomode.rda')
+recipe_list=read.csv('list.csv')
 recipe_list=recipe_list[,-1]
 
 
